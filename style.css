@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    border: border-box;
+}
+html{
+    font-size: 100%;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #182004;
+
+}
+.inner-div{
+    background-color: #fff;
+    width: 40vw;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem  1rem -0.7rem rgb(0, 0, 0,0.4); 
+}
+.inner-div h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 1.5rem 0 4rem 0 ;
+}
+.inner-div li{
+    list-style: none;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+input {
+    cursor: pointer;
+}
+#submit, .btn{
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    margin: 3rem auto 0 auto ;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    background-color: #00a8ff;
+    color: #fff;
+    cursor: pointer;
+    
+
+}
+#submit:hover{
+    background-color: #0097e6;
+    cursor: pointer;
+}
+#showScore{
+    background-color: #f5f6fa;
+    box-shadow: 0 1rem  1rem -0.7rem rgb(0, 0, 0,0.4); 
+    margin-top: 1rem;
+    padding: 3rem 4rem;
+}
+#showScore > h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+#showScore .btn {
+    background-color: #7f8fa6;
+    color: #fbc531;
+    margin-top: 2rem;
+}
+#showScore .btn:hover {
+    background-color:  #7f8fa6;
+    color: #eb4d4b;
+    cursor: pointer;
+    
+}
+.scoreArea{
+    display: none;
+}
