@@ -1,82 +1,88 @@
 *{
     padding: 0%;
     margin: 0%;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 300;
     border: border-box;
+    font-family: Arial, sans-serif;
 }
-html{
-    font-size: 100%;
-}
-.main-div{
+
+body {
+    background-color: #f0f0f0;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: #182004;
+    align-items:center;
+    min-height: 100vh;
+    background-image: url("pictures/background.jpeg"); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 
+
+.container {
+    /* background-color: #fff; */
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align:center;
 }
-.inner-div{
-    background-color: #fff;
-    width: 40vw;
-    padding: 3rem 8rem;
-    border-radius: 1rem;
-    box-shadow: 0 1rem  1rem -0.7rem rgb(0, 0, 0,0.4); 
+
+h1 {
+    /* color: #333; */
+    color: #f44336;
 }
-.inner-div h2{
-    font-size: 3.5rem;
-    font-weight: 400;
-    margin: 1.5rem 0 4rem 0 ;
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    /* margin-right: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
 }
-.inner-div li{
-    list-style: none;
-    margin-top: 1rem;
-    font-size: 2rem;
-}
-input {
-    cursor: pointer;
-}
-#submit, .btn{
-    padding: 1rem 3rem;
-    font-size: 2rem;
-    font-weight: 400;
-    display: block;
-    margin: 3rem auto 0 auto ;
-    text-transform: uppercase;
-    outline: none;
+
+button {
+    padding: 10px 10px;
+    margin-left: 5px;
+    /* background-color: #333; */
+    background-color:chocolate;
+    /* color: #fff; */
+    color:#f0f0f0;
     border: none;
-    background-color: #00a8ff;
-    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
     cursor: pointer;
     
+}
 
+ul {
+    list-style:none;
+    padding: 0;
+   
 }
-#submit:hover{
-    background-color: #0097e6;
-    cursor: pointer;
-}
-#showScore{
-    background-color: #f5f6fa;
-    box-shadow: 0 1rem  1rem -0.7rem rgb(0, 0, 0,0.4); 
-    margin-top: 1rem;
-    padding: 3rem 4rem;
-}
-#showScore > h3 {
-    font-size: 3rem;
-    text-align: center;
-}
-#showScore .btn {
-    background-color: #7f8fa6;
-    color: #fbc531;
-    margin-top: 2rem;
-}
-#showScore .btn:hover {
-    background-color:  #7f8fa6;
-    color: #eb4d4b;
-    cursor: pointer;
+
+li {
+    /* background-color: #f9f9f9; */
+    background-color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
     
 }
-.scoreArea{
-    display: none;
+
+li button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-left: 20px;
+    cursor: pointer;
 }
+.task{
+    display: flex;
+    align-items: start;
+ }  
